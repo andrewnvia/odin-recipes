@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.home {
+    text-align: center;
+    font-size: 50px;
+}
+.home * {
+    margin: 40px;
+}
+
+.home ul {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border: 1px;
+    list-style: none;
+    text-wrap-mode: nowrap;
+}
+.home a {
+    border-style: solid;
+    border-color: brown;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin:0;
+}
+.home a:hover {
+    
+    background-color: aquamarine;
+    padding: 18px;
+    margin:2px;
+    border-radius: 5px;
+}
+
+.recipe .attrib {
+    overflow-wrap: break-word;
+    font-size: 10px;
+    color: #575555;
+    width: 170px;
+    margin: 5px auto;
+    text-wrap-mode: wrap;
+}
+.attrib a {
+    color: rgb(143, 143, 220);
+    overflow-wrap: break-word;
+}
+.recipe img {
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 4px;
+    margin: 0 auto;
+}
